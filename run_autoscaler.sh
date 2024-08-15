@@ -1,0 +1,1 @@
+python AutoScaler/auto_scaler.py --config AutoScaler/config.json

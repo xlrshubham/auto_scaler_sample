@@ -5,7 +5,7 @@ import json
 class Config:
     def __init__(self, config_path=None):
         self.config={
-            "LOG_LEVEL" : "ERROR",
+            "LOG_LEVEL" : "DEBUG",
             "SERVER_URL" : "http://localhost:8001",
             "APP_STATUS_API": "/app/status",
             "SET_REPLICA_API": "/app/replicas",
